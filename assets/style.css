@@ -18,6 +18,10 @@ https://i.ytimg.com/vi/d7zZstEIqLk/maxresdefault.jpg */
     box-sizing: border-box;
   }
 
+    a {
+        display: inline-block;
+    }
+
     html, body {
         width: 100%;
         height: 100%;
@@ -55,7 +59,6 @@ https://i.ytimg.com/vi/d7zZstEIqLk/maxresdefault.jpg */
         color: white;
         letter-spacing: 2px;
         box-sizing: border-box;
-        background: url("https://media.timeout.com/images/105291587/630/472/image.jpg") no-repeat center top scroll;
     }
 
     .form, .form-control {
@@ -88,4 +91,27 @@ https://i.ytimg.com/vi/d7zZstEIqLk/maxresdefault.jpg */
         height: 100vh;
     }
 
+    .alexPic {
+        width:100%;
+        height:100%;
+    }
 
+/* ==========================================
+        Portfolio Page Section */
+
+    #portPage {
+        background: url("https://t3.ftcdn.net/jpg/01/55/43/08/240_F_155430860_Hlx6dRGMXy3d6G29eWXOY3xih3k1HswO.jpg") no-repeat center top scroll;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+/* =======================================================
+        Contact Page Section */
+
+    #contact-main {
+        background: url("https://www.hireright.com/blog/wp-content/uploads/2014/06/global-background-checks-multinational.jpg") no-repeat center top;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
